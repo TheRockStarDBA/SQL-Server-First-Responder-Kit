@@ -3238,7 +3238,7 @@ BEGIN;
                 INSERT    #BlitzIndexResults ( check_id, Priority, findings_group, finding, [database_name], URL, details, index_definition,
                                                secret_columns, index_usage_summary, index_size_summary )
 		SELECT  99 AS check_id, 
-				50 AS Priority,
+				25 AS Priority,
 				'Cold Calculators' AS findings_group,
 				'Serial Forcer' AS finding,
 				cc.database_name,
